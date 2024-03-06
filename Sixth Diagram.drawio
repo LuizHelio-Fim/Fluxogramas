@@ -1,9 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T02:06:00.813Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" version="24.0.1" etag="TUSrQlD8-pVfQ0qhW9s6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-06T02:11:05.958Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="VApNU8Sytn1e8b0_CqqP" version="24.0.1" type="github">
   <diagram name="Page-1" id="_PJ9OEYAvn3uqU7G6KaE">
-    <mxGraphModel>
+    <mxGraphModel dx="1393" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NWV050QIIiLh7alUIDCg-1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NWV050QIIiLh7alUIDCg-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NWV050QIIiLh7alUIDCg-2" target="NWV050QIIiLh7alUIDCg-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NWV050QIIiLh7alUIDCg-2" value="Ler num1, num2, num3" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="310" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NWV050QIIiLh7alUIDCg-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NWV050QIIiLh7alUIDCg-6" target="NWV050QIIiLh7alUIDCg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NWV050QIIiLh7alUIDCg-6" value="Media =(num1+num2+num3)/3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="420" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NWV050QIIiLh7alUIDCg-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NWV050QIIiLh7alUIDCg-1" target="NWV050QIIiLh7alUIDCg-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="160" as="sourcePoint" />
+            <mxPoint x="425" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NWV050QIIiLh7alUIDCg-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NWV050QIIiLh7alUIDCg-7" target="NWV050QIIiLh7alUIDCg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NWV050QIIiLh7alUIDCg-7" value="Media = 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NWV050QIIiLh7alUIDCg-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NWV050QIIiLh7alUIDCg-10" target="NWV050QIIiLh7alUIDCg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NWV050QIIiLh7alUIDCg-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NWV050QIIiLh7alUIDCg-10" target="NWV050QIIiLh7alUIDCg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NWV050QIIiLh7alUIDCg-10" value="Media &amp;gt; 100" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="373" y="530" width="105" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NWV050QIIiLh7alUIDCg-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NWV050QIIiLh7alUIDCg-12" target="NWV050QIIiLh7alUIDCg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NWV050QIIiLh7alUIDCg-12" value="Imprimir: Media maior que 100" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="680" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NWV050QIIiLh7alUIDCg-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NWV050QIIiLh7alUIDCg-14" target="NWV050QIIiLh7alUIDCg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NWV050QIIiLh7alUIDCg-14" value="Media menor ou igual a 100" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="550" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NWV050QIIiLh7alUIDCg-16" value="Fim" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="670" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
